@@ -8,8 +8,9 @@ min = -100000
 fin_key = :test
 name_hash.each{|key, value|
   if(value < min)
-    min = value
     fin_key = key
+    min = value
+    
   end
 }
 fin_key
